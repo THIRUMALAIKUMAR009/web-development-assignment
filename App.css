@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./Dashboard.css";
 function Dashboard() {
   return (
     <div>
-      <h1>Hello Shahrukh</h1>
+      <h1>Hello thirumalaikumar</h1>
 
       <div className="dashboard-section">
         <div className="section-title">Dashboard</div>
@@ -50,7 +50,6 @@ function Dashboard() {
           <p>Product Sell</p>
           <p>Abstract 3D</p>
           <p>Sarphens Illustration</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipang</p>
           <p>Stock</p>
           <p>32 in stock</p>
           <p>$45.99</p>
@@ -64,11 +63,11 @@ function Dashboard() {
   );
 }
 
-function App() {
+function Dashboard() {
   return (
-    <div className="App">
+    <div className="Dashboard">
       <Dashboard />
     </div>
   );
 }
-export default App;
+export default Dashboard;
